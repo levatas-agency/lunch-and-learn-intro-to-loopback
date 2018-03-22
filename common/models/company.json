@@ -1,0 +1,26 @@
+{
+  "name": "companies",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "people": {
+      "type": "hasMany",
+      "model": "people",
+      "foreignKey": "company"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

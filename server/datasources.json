@@ -1,0 +1,18 @@
+{
+  "cloudsql": {
+    "host": "",
+    "port": 3306,
+    "url": "",
+    "database": "",
+    "password": "",
+    "name": "cloudsql",
+    "user": "levatas",
+    "connector": "mysql"
+  },
+  "memory": {
+    "name": "memory",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  }
+}
