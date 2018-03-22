@@ -13,3 +13,4 @@ To run this project:
 
 - Info: loopback.io
 - Docs: http://loopback.io/doc/
+- For an introduction to Loopback 4, coming next year: https://github.com/torontoCascon/cascon-2017
